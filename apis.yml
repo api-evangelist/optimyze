@@ -1,7 +1,29 @@
 aid: optimyze
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/optimyze.png
 name: Optimyze
-description: Optimyze is a company surfaced as a portfolio company of a16z and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Optimyze (Optimyze.cloud Inc.) was a Zurich, Switzerland based continuous-profiling
+  startup, seeded by Andreessen Horowitz (a16z) in 2020, and the maker of Prodfiler — a
+  whole-system, eBPF-based continuous profiler that observed CPU and memory usage down to
+  the individual line of code across C/C++, Rust, Go, PHP, Python, Java, Scala, Ruby and
+  Perl, with roughly 1% CPU overhead and no source-code changes or on-host debug symbols.
+  Optimyze was acquired by Elastic N.V. in October 2021 and its Prodfiler technology was
+  folded into Elastic Observability as Elastic Universal Profiling. The independent company
+  no longer operates: the optimyze.cloud domain no longer resolves, the GitHub organization
+  was archived in 2024, and the Prodfiler developer sub-sites (documentation, app, community)
+  are offline. No independent public Optimyze API, OpenAPI definition, SDK, or developer
+  portal exists to enrich; this profile is retained as an acquired-company lead.
 url: https://raw.githubusercontent.com/api-evangelist/optimyze/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -9,14 +31,34 @@ x-backed-by:
 - a16z
 x-tier: stub
 x-tier-reason: portfolio-lead
+x-status: acquired
+x-acquired-by: Elastic
+x-acquired-date: '2021-10'
+x-successor-product: Elastic Universal Profiling
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Observability
+- Continuous Profiling
+- Performance
+- Cloud Optimization
+- eBPF
+- Acquired
 apis: []
+common:
+- type: GitHubOrganization
+  url: https://github.com/optimyze
+- type: Homepage
+  url: https://prodfiler.com/
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: nochange
+  artifacts_added: 0
+  pass: local-v1
