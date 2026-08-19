@@ -35,7 +35,7 @@ x-status: acquired
 x-acquired-by: Elastic
 x-acquired-date: '2021-10'
 x-successor-product: Elastic Universal Profiling
-specificationVersion: '0.20'
+specificationVersion: '0.23'
 created: '2026-07-17'
 modified: '2026-07-20'
 tags:
